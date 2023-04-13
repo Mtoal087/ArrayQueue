@@ -37,7 +37,6 @@ void operations(MyQueue<T>& queue, int nbrCustomers){
         randNumbers = 0;
         newroundCustomers = 0;
         round +=1;
-        cout << endl;
         generateNumbers(queue, customers,randNumbers, arrayNumbers, firstNumbers);
         firstNumbers = false;
 
