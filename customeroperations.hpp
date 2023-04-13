@@ -1,3 +1,4 @@
+// Matt Toal
 // hpp file for customer operations
 #include <iostream>
 #include "derived.h"
@@ -36,7 +37,6 @@ void operations(MyQueue<T>& queue, int nbrCustomers){
         randNumbers = 0;
         newroundCustomers = 0;
         round +=1;
-        cout << "\nRound " << round <<endl;
         cout << endl;
         generateNumbers(queue, customers,randNumbers, arrayNumbers, firstNumbers);
         firstNumbers = false;
